@@ -1,45 +1,74 @@
 # PowerBI-Sales-Performance-Dashboard
 
-Sales Performance Analysis using Power BI
 
-Project Overview
+📊 Sales Performance Analysis using Power BI
 
-This beginner-level project analyzes sales data using Microsoft Power BI to understand product-wise revenue and overall sales performance.
+📌 Project Overview
 
-Objectives
+This project analyzes sample sales data to understand product-wise revenue, order volume, and overall sales performance using Microsoft Power BI.
 
-- Calculate total revenue.
-- Analyze revenue by product.
+🎯 Business Objectives
+
+- Calculate total sales revenue.
+- Compare revenue across products.
 - Identify the highest-revenue product.
-- Build an interactive sales dashboard.
+- Track total orders and quantity sold.
+- Design an interactive sales dashboard.
 
-Tools Used
+🛠️ Tools and Technologies
 
 - Microsoft Power BI Desktop
 - Power Query
-- DAX
-- CSV dataset
+- DAX (Data Analysis Expressions)
+- CSV Dataset
+- GitHub
 
-Dataset
+📂 Project Structure
 
-The dataset contains six sample sales orders with Order ID, Product, Quantity, and Price.
+PowerBI-Sales-Performance-Dashboard/
+├── data/
+│   └── sales_data.csv
+├── README.md
+└── DAX_Measures.md
 
-Revenue Calculation
+📈 Dataset Description
+
+The sample dataset contains six orders and four columns:
+
+Column| Description
+OrderID| Unique order identifier
+Product| Product name
+Quantity| Number of units sold
+Price| Price per unit in ₹
+
+🧮 Revenue Calculation
 
 Revenue = Quantity × Price
 
-Key Results
+🔍 Key Business Insights
 
 - Total Revenue: ₹1,56,000
+- Total Orders: 6
+- Total Quantity Sold: 16 units
+- Top Revenue Product: Laptop
 - Laptop Revenue: ₹90,000
 - Mobile Revenue: ₹50,000
 - Headphones Revenue: ₹16,000
-- Highest-Revenue Product: Laptop
 
-Project Status
+📊 Planned Dashboard Visuals
 
-In Progress — Data preparation, DAX measures, and dashboard development will be completed step by step.
+- Total Revenue KPI Card
+- Total Orders KPI Card
+- Revenue by Product Bar Chart
+- Product Revenue Share Donut Chart
 
-Disclaimer
+🚧 Project Status
 
-This project uses sample data created for educational and portfolio purposes.
+In Progress
+
+Dataset and DAX documentation have been prepared. The interactive Power BI dashboard will be developed and tested in Power BI Desktop.
+
+📁 Files
+
+- "data/sales_data.csv" — Sample sales dataset
+- "DAX_Measures.md" — Planned DAX formulas and explanations
